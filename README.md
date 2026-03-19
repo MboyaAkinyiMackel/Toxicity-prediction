@@ -37,13 +37,6 @@ Evaluation was done using:
 - Matplotlib
 - Seaborn
 
-## How to Run
-
-```bash
-git clone <repo link>
-cd toxicity-prediction
-jupyter notebook
-
 ## Hyperparameter Tuning
 
 Grid Search was used to optimize the Random Forest model.
@@ -56,3 +49,10 @@ Parameters tuned:
 - min_samples_leaf
 
 This improved the model performance and reduced overfitting.
+
+## How to Run
+
+```bash
+git clone <repo link>
+cd toxicity-prediction
+jupyter notebook
