@@ -43,3 +43,16 @@ Evaluation was done using:
 git clone <repo link>
 cd toxicity-prediction
 jupyter notebook
+
+## Hyperparameter Tuning
+
+Grid Search was used to optimize the Random Forest model.
+
+Parameters tuned:
+
+- n_estimators
+- max_depth
+- min_samples_split
+- min_samples_leaf
+
+This improved the model performance and reduced overfitting.
